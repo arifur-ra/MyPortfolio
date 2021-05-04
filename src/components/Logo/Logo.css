@@ -1,0 +1,18 @@
+/* ..................NavBar Logo................... */
+
+.logo {
+  width: 12rem;
+  padding: 0 0.5rem;
+}
+.navbar-brand {
+  width: 13.5rem;
+  padding: 0 !important;
+  height: 4.5rem;
+  box-shadow: 0 0.2rem 0.1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-brand {
+    box-shadow: 0 0 0;
+  }
+}

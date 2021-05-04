@@ -1,0 +1,52 @@
+nav {
+  z-index: 2;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/* ................NAV LINK  or MENU LINK.................*/
+
+nav a.nav-link {
+  /* font-weight: 500; */
+  letter-spacing: 0.4rem;
+  cursor: pointer;
+}
+nav ul li {
+  text-transform: uppercase;
+}
+li > a {
+  border-top: 0.185rem solid var(--primary-dark);
+  margin: 0 0.8rem;
+  color: var(--primary-white) !important;
+  font-family: "karantina";
+}
+
+li > a:hover {
+  border-top: 0.185rem solid var(--primary-orange);
+  transition: 0.3s;
+}
+
+/*  Responsive of all device */
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 10rem;
+    padding: 0.5rem 1rem;
+  }
+  .navbar-brand {
+    width: 10.5rem;
+    height: 3.5rem;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+  .logo {
+    width: 13rem;
+    padding: 0.5rem 2rem;
+  }
+  .navbar-brand {
+    width: 13.5rem;
+    height: 4rem;
+  }
+}

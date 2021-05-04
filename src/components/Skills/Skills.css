@@ -1,0 +1,104 @@
+.main-skills {
+  position: relative;
+  background: url(../../assets/back_skills.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.skillContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skillContainer__text {
+  flex: 1.6;
+  max-width: 25rem;
+}
+.skillContainer__text > h2 {
+  font-size: 2rem;
+  font-family: "karantina";
+  color: var(--primary-orange);
+}
+.skillContainer__image {
+  margin: 3.5rem 0;
+}
+.skillContainer__image > img {
+  width: 30rem;
+  height: 25rem;
+  border-radius: 5px;
+}
+.skillContainer__skillSet > h5 {
+  font-family: "karantina";
+  color: var(--primary-white);
+  font-weight: 300;
+  padding: 1rem 0;
+}
+
+.skillContainer__slider > .MuiLinearProgress-colorPrimary {
+  background-color: rgb(88, 88, 88);
+}
+
+.skillContainer__slider1 > div > .MuiLinearProgress-barColorPrimary {
+  background-color: tomato;
+}
+
+.skillContainer__slider2 > div > .MuiLinearProgress-barColorPrimary {
+  background-color: rgb(156, 26, 3);
+}
+
+.skillContainer__slider3 > div > .MuiLinearProgress-barColorPrimary {
+  background-color: rgb(255, 145, 0);
+}
+
+.skillContainer__slider4 > div > .MuiLinearProgress-barColorPrimary {
+  background-color: rgb(228, 213, 0);
+}
+
+.skillContainer__slider5 > div > .MuiLinearProgress-barColorPrimary {
+  background-color: rgb(240, 6, 209);
+}
+
+.skillContainer__slider6 > div > .MuiLinearProgress-barColorPrimary {
+  background-color: rgb(255, 209, 0);
+}
+
+/*  Responsive of all device */
+@media only screen and (max-width: 600px) {
+  .main-skills {
+    height: 100%;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .skillContainer__image {
+    display: none;
+  }
+  .skillContainer__text {
+    margin: 1rem 2rem;
+  }
+  .skillContainer__skillSet > h5 {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+  .main-skills {
+    height: 100%;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .skillContainer__image {
+    margin: 0 2rem;
+  }
+  .skillContainer__image > img {
+    width: 20rem;
+    height: 35rem;
+  }
+  .skillContainer__text {
+    margin: 1rem 2rem;
+  }
+  .skillContainer__skillSet > h5 {
+    font-size: 1.3rem;
+  }
+}

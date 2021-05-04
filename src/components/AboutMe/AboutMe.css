@@ -1,0 +1,138 @@
+.main-aboutme {
+  position: relative;
+  background: url(../../assets/back_aboutme.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  width: 90vw;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: 5rem;
+}
+.img {
+  box-shadow: 0 0 0.4rem 0.1rem var(--primary-brown);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+.img > img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+h2 {
+  text-align: center;
+  color: var(--primary-white);
+}
+h4 {
+  text-align: center;
+  color: var(--primary-orange);
+  font-size: 1.2rem;
+}
+.about-info {
+  padding: 1.5rem 2rem;
+  box-shadow: 0.2rem 0.4rem 0.5rem;
+  border-radius: 0.5rem;
+  margin-left: 2rem;
+}
+.about-info > p {
+  color: var(--primary-white);
+  font-size: 1.3rem;
+}
+.about-info > p > span {
+  color: var(--primary-orange);
+  font-size: 1.5rem;
+}
+
+.icon {
+  color: var(--primary-red);
+}
+
+/*  Responsive of all device */
+@media only screen and (max-width: 600px) {
+  .main-aboutme {
+    height: 100%;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 0.5rem;
+  }
+  .img {
+    box-shadow: 0 0 0.3rem 0.1rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+  .img > img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  .img > h2 {
+    font-size: 1.5rem;
+  }
+  .img > h4 {
+    font-size: 0.8rem;
+  }
+  .about-info {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    box-shadow: 0 0 0.4rem 0.2rem;
+  }
+  .about-info > p {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+  }
+  .about-info > p > span {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+  .main-aboutme {
+    height: 100%;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+
+  .main-content {
+    position: relative;
+    width: 100vw;
+  }
+
+  .img > img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+  }
+  .img > h2 {
+    font-size: 1.7rem;
+  }
+  .img > h4 {
+    font-size: 0.9rem;
+  }
+  .about-info {
+    padding: 1.5rem;
+    margin-left: 1rem;
+  }
+  .about-info > p {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,93 @@
+.main-contact {
+  position: relative;
+  background: url(../../assets/back_contactme.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0;
+}
+.contact-content {
+  width: 30vw;
+  padding: 0.5rem 1rem;
+  /* box-shadow: 0 0 2rem; */
+  background-color: rgb(44, 49, 42);
+}
+.contact-content > p {
+  font-size: 1.7rem;
+  color: var(--primary-white);
+  padding: 1rem;
+  font-family: "karantina";
+}
+.contact-message {
+  width: 30vw;
+  background-color: rgb(44, 49, 42);
+
+  box-shadow: 0 0 2rem;
+}
+.contact-message > h2 {
+  padding: 0.5rem 0;
+  font-family: "karantina";
+  font-size: 3rem;
+}
+.social {
+  text-align: center;
+}
+/*  Responsive of all device */
+@media only screen and (max-width: 600px) {
+  .main-contact {
+    height: 100%;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+  .contact-content {
+    margin: 0.5rem 1rem;
+    width: 90vw;
+  }
+  .contact-content > p {
+    font-size: 1rem;
+  }
+
+  .contact-message {
+    width: 90vw;
+    margin: 0.5rem 1rem;
+  }
+  .contact-message > h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .contact-info {
+    display: flex;
+    padding: 2rem 0;
+  }
+  .contact-content {
+    margin: 0.5rem 1rem;
+    width: 50vw;
+  }
+  .contact-content > p {
+    font-size: 1.5rem;
+  }
+
+  .contact-message {
+    width: 50vw;
+    margin: 0.5rem 1rem;
+  }
+  .contact-message > h2 {
+    font-size: 2rem;
+  }
+}
