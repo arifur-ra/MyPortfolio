@@ -1,6 +1,5 @@
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import ContactMailIcon from "@material-ui/icons/ContactMail";
 import HomeIcon from "@material-ui/icons/Home";
 import React from "react";
 import { Link } from "react-scroll";
@@ -63,8 +62,8 @@ const Navbar = () => {
             <Link to="contact" smooth={true} duration={800}>
               <li class="nav-item">
                 <a className="nav-link" href="#">
-                  {/* Contact */}
-                  <ContactMailIcon />
+                  Contact
+                  {/* <ContactMailIcon /> */}
                 </a>
               </li>
             </Link>
