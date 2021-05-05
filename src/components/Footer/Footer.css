@@ -1,7 +1,9 @@
 .main-footer {
   display: flex;
-  justify-content: space-between;
-  height: 10vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
   background-color: var(--primary-black);
   box-shadow: 0 0.2rem 0.4rem;
 }
@@ -25,7 +27,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    height: 100%;
   }
 }
 

@@ -7,7 +7,6 @@ import PhoneIcon from "@material-ui/icons/Phone";
 import PlaceIcon from "@material-ui/icons/Place";
 import React from "react";
 import { Element } from "react-scroll";
-import SocialMedia from "../SocialMedia/SocialMedia";
 import "./ContactMe.css";
 
 const useStyles = makeStyles((theme) => ({
@@ -75,9 +74,9 @@ const ContactMe = () => {
             </form>
           </div>
         </div>
-        <div className="social">
+        {/* <div className="social">
           <SocialMedia />
-        </div>
+        </div> */}
       </Element>
     </div>
   );
