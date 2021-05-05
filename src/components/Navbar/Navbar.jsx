@@ -63,7 +63,7 @@ const Navbar = () => {
               <li class="nav-item">
                 <a className="nav-link" href="#">
                   Contact
-                  {/* <ContactMailIcon /> */}
+                  {/* <ContactMailIcon />v     */}
                 </a>
               </li>
             </Link>
