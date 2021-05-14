@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.f80c9808.chunk.css",
-    "main.js": "/MyPortfolio/static/js/main.c43e3361.chunk.js",
-    "main.js.map": "/MyPortfolio/static/js/main.c43e3361.chunk.js.map",
+    "main.js": "/MyPortfolio/static/js/main.c92f5063.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.c92f5063.chunk.js.map",
     "runtime-main.js": "/MyPortfolio/static/js/runtime-main.2a3c0d09.js",
     "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.2a3c0d09.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/MyPortfolio/static/css/2.4c97ca4f.chunk.css",
@@ -14,7 +14,7 @@
     "static/css/2.4c97ca4f.chunk.css.map": "/MyPortfolio/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.f80c9808.chunk.css.map": "/MyPortfolio/static/css/main.f80c9808.chunk.css.map",
     "static/js/2.2302772e.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.2302772e.chunk.js.LICENSE.txt",
-    "static/media/Arifur's Resume_final.998120d9.pdf": "/MyPortfolio/static/media/Arifur's Resume_final.998120d9.pdf",
+    "static/media/Arifur_Rahman_CV.d9bd684a.pdf": "/MyPortfolio/static/media/Arifur_Rahman_CV.d9bd684a.pdf",
     "static/media/ToDoapp.bbd91529.png": "/MyPortfolio/static/media/ToDoapp.bbd91529.png",
     "static/media/AboutMe.css": "/MyPortfolio/static/media/back_aboutme.5bd3417a.jpg",
     "static/media/ContactMe.css": "/MyPortfolio/static/media/back_contactme.7d2ef10f.jpeg",
@@ -29,6 +29,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.2302772e.chunk.js",
     "static/css/main.f80c9808.chunk.css",
-    "static/js/main.c43e3361.chunk.js"
+    "static/js/main.c92f5063.chunk.js"
   ]
 }
