@@ -3,9 +3,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 40vh;
+  height: 30vh;
   background-color: var(--primary-black);
   box-shadow: 0 0.2rem 0.4rem;
+  line-height: 0.5rem;
 }
 .footer-content > p {
   color: var(--primary-orange);
@@ -16,6 +17,7 @@
   text-align: center;
 }
 .footer-logo {
+  display: none;
   margin: 0 1rem;
   padding: 0 1rem;
 }
@@ -28,6 +30,11 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+  }
+  .footer-logo {
+    display: block;
+    margin: 0 1rem;
+    padding: 0 1rem;
   }
 }
 

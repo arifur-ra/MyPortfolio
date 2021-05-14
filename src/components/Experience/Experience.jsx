@@ -14,7 +14,7 @@ const Experience = () => {
             friendly, secure website.
           </p>
 
-          <h3>Looking for experience....</h3>
+          <h3>Looking for professional experience</h3>
         </div>
       </div>
     </Element>

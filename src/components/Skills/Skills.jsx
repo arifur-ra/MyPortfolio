@@ -43,6 +43,12 @@ const Skills = () => {
               </div>
             </div>
             <div className="skillContainer__skillSet">
+              <h5>ExpressJS</h5>
+              <div className="skillContainer__slider skillContainer__slider5">
+                <LinearProgress variant="determinate" value={60} />
+              </div>
+            </div>
+            <div className="skillContainer__skillSet">
               <h5>MongoDB</h5>
               <div className="skillContainer__slider skillContainer__slider6">
                 <LinearProgress variant="determinate" value={70} />

@@ -10,6 +10,7 @@ const Aboutme = () => {
     <div className="main-aboutme">
       <Element id="aboutme">
         <h1>About Me</h1>
+
         <div className="main-content">
           <div className="img">
             <img src={ProfilePhoto} alt="ProfilePhoto" />
