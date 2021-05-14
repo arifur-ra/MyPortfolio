@@ -1,7 +1,7 @@
 import React from "react";
 import { Element } from "react-scroll";
 import Typed from "react-typed"; // react library for animation
-import CV from "../../assets/Arifur's Resume_final.pdf";
+import CV from "../../assets/Arifur_Rahman_CV.pdf";
 import SocialMedia from "../SocialMedia/SocialMedia";
 import "./Home.css";
 
