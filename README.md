@@ -4,4 +4,4 @@ This project is all about Arifur Rahman Arif, Who recently completed 1 year cour
 
 ## Technologies Uses for This Project
 
-React, CSS ,HTML ,JavaScript
+React, CSS ,HTML ,JavaScript,Material UI, Bootstrap

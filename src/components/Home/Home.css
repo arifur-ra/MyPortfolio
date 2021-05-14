@@ -3,7 +3,7 @@
   background: url(../../assets/wall_and_laptop2.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 .main-info {
   display: flex;
