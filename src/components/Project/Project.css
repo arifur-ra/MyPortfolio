@@ -1,15 +1,22 @@
 .project-content {
-  width: 15rem;
-  height: 20rem;
+  width: 17rem;
+  height: 22rem;
   background-color: var(--primary-black);
   border-radius: 0.5rem;
   border: 1px solid white;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1rem;
 }
 
 .project-content > a > img {
-  width: 15rem;
+  width: 16rem;
   height: 14rem;
   padding: 0.5rem;
+  cursor: pointer;
 }
 .project-content > a > img:hover {
   opacity: 0.5s;
@@ -26,6 +33,12 @@
   font-family: "karantina";
   color: var(--primary-white);
 }
+.project-content > a {
+  font-family: "karantina";
+  color: var(--primary-white);
+  text-decoration: none;
+  cursor: pointer;
+}
 
 /*  Responsive of all device */
 @media only screen and (max-width: 600px) {
@@ -38,10 +51,18 @@
   }
   .project-content > a > img {
     width: 100%;
-    height: 20rem;
+    height: 17rem;
     border-radius: 0.2rem;
   }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 800px) {
+  .project-content {
+    width: 90%;
+    height: 25rem;
+  }
+  .project-content > a > img {
+    width: 100%;
+    height: 17rem;
+  }
 }
