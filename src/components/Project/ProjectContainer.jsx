@@ -21,12 +21,17 @@ const ProjectContainer = () => {
       desc: "using HTML CSS JavaScript Technology",
     },
     {
-      img: Lavilla,
-      title: "La-Villa",
-      link: "https://arifur-ra.github.io/My_WebDev/HTML&CSS/Final_Lavilla/public/index.html",
-      desc: "using HTML CSS SASS Technology",
+      img: todoApp,
+      title: "todoApp",
+      link: "https://arifur-ra.github.io/todoApp/",
+      desc: "using HTML CSS JavaScript, React, Material-UI Technology",
     },
-
+    {
+      img: ToDoApp,
+      title: "ToDoApp",
+      link: "https://arifur-ra.github.io/My_WebDev/Java_Script/11_Local_Storae/localstorage/localstorage.html",
+      desc: "using HTML CSS JavaScript Technology",
+    },
     {
       img: todoApp,
       title: "todoApp",
@@ -38,13 +43,6 @@ const ProjectContainer = () => {
       title: "La-Villa",
       link: "https://arifur-ra.github.io/My_WebDev/HTML&CSS/Final_Lavilla/public/index.html",
       desc: "using HTML CSS SASS Technology",
-    },
-
-    {
-      img: ToDoApp,
-      title: "ToDoApp",
-      link: "https://arifur-ra.github.io/My_WebDev/Java_Script/11_Local_Storae/localstorage/localstorage.html",
-      desc: "using HTML CSS JavaScript Technology",
     },
   ];
   return (
