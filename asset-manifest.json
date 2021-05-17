@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.bc349a13.chunk.css",
-    "main.js": "/MyPortfolio/static/js/main.d9290765.chunk.js",
-    "main.js.map": "/MyPortfolio/static/js/main.d9290765.chunk.js.map",
+    "main.js": "/MyPortfolio/static/js/main.0ece73cd.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.0ece73cd.chunk.js.map",
     "runtime-main.js": "/MyPortfolio/static/js/runtime-main.2a3c0d09.js",
     "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.2a3c0d09.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/MyPortfolio/static/css/2.4c97ca4f.chunk.css",
@@ -22,6 +22,7 @@
     "static/media/logo1.42c684c7.png": "/MyPortfolio/static/media/logo1.42c684c7.png",
     "static/media/profile.b14902e6.jpg": "/MyPortfolio/static/media/profile.b14902e6.jpg",
     "static/media/skills.a92b0565.jpg": "/MyPortfolio/static/media/skills.a92b0565.jpg",
+    "static/media/todoApp.27fd4200.png": "/MyPortfolio/static/media/todoApp.27fd4200.png",
     "static/media/Home.css": "/MyPortfolio/static/media/wall_and_laptop2.1d4ff097.jpg"
   },
   "entrypoints": [
@@ -29,6 +30,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.2302772e.chunk.js",
     "static/css/main.bc349a13.chunk.css",
-    "static/js/main.d9290765.chunk.js"
+    "static/js/main.0ece73cd.chunk.js"
   ]
 }
