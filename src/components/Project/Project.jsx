@@ -1,7 +1,7 @@
 import React from "react";
 import "./Project.css";
 
-const Project = ({ img, link, title, desc }) => {
+const Project = ({ img, link, title, desc, githubLink }) => {
   return (
     <div className="project-content">
       <a href={link}>
@@ -9,6 +9,7 @@ const Project = ({ img, link, title, desc }) => {
       </a>
       <h4>{title}</h4>
       <p>{desc}</p>
+      <a href={githubLink}>gitHubLink</a>
     </div>
   );
 };
