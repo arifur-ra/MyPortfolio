@@ -11,9 +11,9 @@ const Experience = () => {
         <div className="ex-info">
           <p>
             <DoubleArrowIcon /> As a Full Stack Web Developer, working on
-            multiple practical projects throughout the past year has provided me
-            with extensive knowledge of how to design a user friendly and secure
-            website.
+            multiple practical projects throughout the past year at DCI has
+            provided me with extensive knowledge of how to design a user
+            friendly and secure website.
           </p>
           <p>
             <DoubleArrowIcon /> I would Like to solve challenges in various ways
