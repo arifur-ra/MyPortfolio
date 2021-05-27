@@ -1,3 +1,4 @@
+import DoubleArrowIcon from "@material-ui/icons/DoubleArrow";
 import React from "react";
 import { Element } from "react-scroll";
 import "./Experience.css";
@@ -9,12 +10,18 @@ const Experience = () => {
         <h1>IT-Experience</h1>
         <div className="ex-info">
           <p>
-            Working on multiple practical projects throughout the past year has
-            provided me with extensive knowledge of how to design a user
-            friendly, secure website.
+            <DoubleArrowIcon /> As a Full Stack Web Developer, working on
+            multiple practical projects throughout the past year has provided me
+            with extensive knowledge of how to design a user friendly and secure
+            website.
+          </p>
+          <p>
+            <DoubleArrowIcon /> I would Like to solve challenges in various ways
+            and try new platforms. I am looking for a new challenge within the
+            digital industry & would like to gain new technologies knowledge.
           </p>
 
-          <h3>Looking for professional experience</h3>
+          <h3>Looking for professional experience..</h3>
         </div>
       </div>
     </Element>

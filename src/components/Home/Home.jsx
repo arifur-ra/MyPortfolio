@@ -14,8 +14,8 @@ const Header = () => {
           <Typed
             className="typed-text"
             strings={[
+              "I am Arifur Rahman Aarif",
               "Full-Stack-Developer",
-              "Web Designer",
               "FrontEnd-Developer",
             ]}
             typeSpeed={40}
