@@ -98,6 +98,7 @@ h4 {
   .about-info > p {
     font-size: 1rem;
     padding: 0.5rem 0;
+    text-align: justify;
   }
   .about-info > p > span {
     font-size: 1rem;
