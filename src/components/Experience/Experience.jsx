@@ -18,7 +18,7 @@ const Experience = () => {
           <p>
             <DoubleArrowIcon /> I would Like to solve challenges in various ways
             and try new platforms. I am looking for a new challenge within the
-            digital industry & would like to gain new technologies knowledge.
+            digital industry & would like to gain of new technologies .
           </p>
 
           <h3>Looking for professional experience..</h3>
