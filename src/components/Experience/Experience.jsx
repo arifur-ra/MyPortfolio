@@ -20,7 +20,6 @@ const Experience = () => {
             and try new platforms.I am looking for a new challenge within the
             digital industry & would like to gain knowledge of new technologies.
           </p>
-
           <h3>Looking for professional experience..</h3>
         </div>
       </div>

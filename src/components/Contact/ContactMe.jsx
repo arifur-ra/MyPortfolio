@@ -5,7 +5,7 @@ import EmailIcon from "@material-ui/icons/Email";
 import FlagIcon from "@material-ui/icons/Flag";
 import PhoneIcon from "@material-ui/icons/Phone";
 import PlaceIcon from "@material-ui/icons/Place";
-import React from "react";
+import React, { useState } from "react";
 import { Element } from "react-scroll";
 import "./ContactMe.css";
 
@@ -29,6 +29,9 @@ const useStyles = makeStyles((theme) => ({
 
 const ContactMe = () => {
   const classes = useStyles();
+  const [name, setName] = useState("Arifur Rahman Arif");
+  const [email, setEmail] = useState("ararif@yahho.com");
+  const [message, setMessage] = useState("whatever you want.....");
 
   return (
     <div className="main-contact">
@@ -60,13 +63,22 @@ const ContactMe = () => {
                 id="standard-basic"
                 label="Enter your Full Name"
                 className={classes.labelColor}
+                value={name}
+                onChange={(e) => setName(e.target.value)}
               />
-              <TextField id="standard-basic" label="Email Address" />
+              <TextField
+                id="standard-basic"
+                label="Email Address"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
               <TextField
                 id="standard-basic"
                 label="Write a Message"
                 multiline
                 rows={4}
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
               />
               <Button variant="contained" color="primary">
                 Submit
