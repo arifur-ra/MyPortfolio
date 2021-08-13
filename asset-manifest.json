@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.3ddb6284.chunk.css",
+    "main.css": "/MyPortfolio/static/css/main.8095888c.chunk.css",
     "main.js": "/MyPortfolio/static/js/main.5234ebf2.chunk.js",
     "main.js.map": "/MyPortfolio/static/js/main.5234ebf2.chunk.js.map",
     "runtime-main.js": "/MyPortfolio/static/js/runtime-main.0ae68b51.js",
@@ -10,7 +10,7 @@
     "static/js/2.d12fa199.chunk.js.map": "/MyPortfolio/static/js/2.d12fa199.chunk.js.map",
     "index.html": "/MyPortfolio/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/MyPortfolio/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.3ddb6284.chunk.css.map": "/MyPortfolio/static/css/main.3ddb6284.chunk.css.map",
+    "static/css/main.8095888c.chunk.css.map": "/MyPortfolio/static/css/main.8095888c.chunk.css.map",
     "static/js/2.d12fa199.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.d12fa199.chunk.js.LICENSE.txt",
     "static/media/Arifur_CV.c44bcd6b.pdf": "/MyPortfolio/static/media/Arifur_CV.c44bcd6b.pdf",
     "static/media/ToDoapp.bbd91529.png": "/MyPortfolio/static/media/ToDoapp.bbd91529.png",
@@ -30,7 +30,7 @@
     "static/js/runtime-main.0ae68b51.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.d12fa199.chunk.js",
-    "static/css/main.3ddb6284.chunk.css",
+    "static/css/main.8095888c.chunk.css",
     "static/js/main.5234ebf2.chunk.js"
   ]
 }
