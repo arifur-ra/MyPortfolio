@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.3ddb6284.chunk.css",
-    "main.js": "/MyPortfolio/static/js/main.0409cdbd.chunk.js",
-    "main.js.map": "/MyPortfolio/static/js/main.0409cdbd.chunk.js.map",
+    "main.js": "/MyPortfolio/static/js/main.5234ebf2.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.5234ebf2.chunk.js.map",
     "runtime-main.js": "/MyPortfolio/static/js/runtime-main.0ae68b51.js",
     "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.0ae68b51.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/MyPortfolio/static/css/2.4c97ca4f.chunk.css",
@@ -18,7 +18,10 @@
     "static/media/ContactMe.css": "/MyPortfolio/static/media/back_contactme.7d2ef10f.jpeg",
     "static/media/lavilla.bfd5accb.png": "/MyPortfolio/static/media/lavilla.bfd5accb.png",
     "static/media/logo1.42c684c7.png": "/MyPortfolio/static/media/logo1.42c684c7.png",
+    "static/media/menu-item.cdfaa0c2.png": "/MyPortfolio/static/media/menu-item.cdfaa0c2.png",
+    "static/media/modal.5f7ecc32.png": "/MyPortfolio/static/media/modal.5f7ecc32.png",
     "static/media/profile.b14902e6.jpg": "/MyPortfolio/static/media/profile.b14902e6.jpg",
+    "static/media/review-card.2d677a95.png": "/MyPortfolio/static/media/review-card.2d677a95.png",
     "static/media/skills.a92b0565.jpg": "/MyPortfolio/static/media/skills.a92b0565.jpg",
     "static/media/todoApp.27fd4200.png": "/MyPortfolio/static/media/todoApp.27fd4200.png",
     "static/media/Home.css": "/MyPortfolio/static/media/wall_and_laptop2.1d4ff097.jpg"
@@ -28,6 +31,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.d12fa199.chunk.js",
     "static/css/main.3ddb6284.chunk.css",
-    "static/js/main.0409cdbd.chunk.js"
+    "static/js/main.5234ebf2.chunk.js"
   ]
 }
