@@ -9,7 +9,7 @@ const Project = ({ img, link, title, desc, githubLink }) => {
       </a>
       <h4>{title}</h4>
       <p>{desc}</p>
-      <a href={githubLink}>gitHubLink</a>
+      <button href={githubLink}>gitHub</button>
     </div>
   );
 };

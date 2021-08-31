@@ -22,8 +22,8 @@ const Aboutme = () => {
           <div className="about-info">
             <p>
               Hello good People, <br />
-              <ForwardIcon className="icon" /> I am studying at Digital Career
-              Institute gGmbh in Berlin as a
+              <ForwardIcon className="icon" /> Recently,I have completed my One
+              years Course from at Digital Career Institute gGmbh in Berlin as a
               <span> Full Stack Web Developer</span> .
             </p>
             <p>
@@ -40,8 +40,10 @@ const Aboutme = () => {
               within the digital industry.
             </p>
             <p>
-              <ForwardIcon className="icon" /> with version control skills in
-              <span> Git, Github</span>
+              <ForwardIcon className="icon" /> Throughout the whole courses, I
+              was working with version control
+              <span> Git & Github</span> for collaboration the project with
+              others team member.
             </p>
           </div>
         </div>

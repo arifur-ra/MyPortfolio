@@ -1,4 +1,4 @@
-import lavilla from "../../assets/projects/lavilla.png";
+import countdown from "../../assets/projects/coundown-timmer.png";
 import menuItem from "../../assets/projects/menu-item.png";
 import modal from "../../assets/projects/modal.png";
 import reviewCard from "../../assets/projects/review-card.png";
@@ -7,12 +7,12 @@ import ToDoApp from "../../assets/projects/ToDoapp.png";
 
 const projects = [
   {
-    img: lavilla,
-    title: "La-Villa",
-    link: "https://arifur-ra.github.io/My_WebDev/HTML&CSS/Final_Lavilla/public/index.html",
-    desc: "using HTML CSS SASS Technology",
+    img: countdown,
+    title: "Countdown-timer",
+    link: "https://arifur-ra.github.io/MyProject/JavaScript/14_countdown-timer/index.html",
+    desc: "using HTML CSS JavaScript Tools",
     githubLink:
-      "https://github.com/arifur-ra/My_WebDev/tree/master/HTML%26CSS/Final_Lavilla",
+      "https://github.com/arifur-ra/MyProject/tree/master/JavaScript/14_countdown-timer",
   },
   {
     img: ToDoApp,
@@ -25,31 +25,33 @@ const projects = [
   {
     img: menuItem,
     title: "Menu List",
-    link: "https://arifur-ra.github.io/MyProject/10_menu-item/index.html",
+    link: "https://arifur-ra.github.io/MyProject/JavaScript/10_menu-item/index.html",
     desc: "using HTML CSS JavaScript Technology",
     githubLink:
-      "https://github.com/arifur-ra/MyProject/tree/master/10_menu-item",
+      "https://github.com/arifur-ra/MyProject/tree/master/JavaScript/10_menu-item",
   },
   {
     img: reviewCard,
     title: "Review-card",
-    link: "https://arifur-ra.github.io/MyProject/05_reviews/index.html",
+    link: "https://arifur-ra.github.io/MyProject/JavaScript/05_reviews/index.html",
     desc: "using HTML CSS JavaScript Technology",
-    githubLink: "https://github.com/arifur-ra/MyProject/tree/master/05_reviews",
+    githubLink:
+      "https://github.com/arifur-ra/MyProject/tree/master/JavaScript/05_reviews",
   },
   {
     img: todoApp,
     title: "todoApp",
     link: "https://arifur-ra.github.io/todoApp/",
-    desc: "using HTML CSS JavaScript, React, Material-UI Technology",
+    desc: "using HTML CSS JavaScript, React, Material-UI Tools",
     githubLink: "https://github.com/arifur-ra/todoApp",
   },
   {
     img: modal,
     title: "Modal",
-    link: "https://arifur-ra.github.io/MyProject/08_modal/index.html",
-    desc: "using HTML CSS SASS Technology",
-    githubLink: "https://github.com/arifur-ra/MyProject/tree/master/08_modal",
+    link: "https://arifur-ra.github.io/MyProject/JavaScript/08_modal/index.html",
+    desc: "using HTML CSS JavaScript Tools",
+    githubLink:
+      "https://github.com/arifur-ra/MyProject/tree/master/JavaScript/08_modal",
   },
 ];
 export default projects;
